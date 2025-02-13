@@ -2983,6 +2983,11 @@ small {
 		margin-top: -1rem;
 	}
 
+		.thank-you-page {
+			font-size: 1.25rem;
+			margin: 3rem 0;
+		}
+
 	header h2 + p {
 		font-size: 1.25rem;
 		margin-top: -1rem;
