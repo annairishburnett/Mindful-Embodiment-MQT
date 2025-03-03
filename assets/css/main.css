@@ -3168,7 +3168,9 @@ small {
 		width: auto;
 		margin-left: 0;
 	}
-
+		.banner p {
+			font-weight: 600;
+		}
 
 		.banner a {
 			color: #fff;
@@ -3790,7 +3792,7 @@ small {
 	text-align: center;
 	padding: 0 100px;
 	margin: 0 0 0.5rem 0;
-	font-weight: 400;
+	font-weight: 600;
 	font-style: italic;
 	color: #333;
 }
@@ -3815,7 +3817,7 @@ small {
    height: 40px;
    width: 40px; 
    border-radius: 50%;
-   transform: translateY(10px);
+   transform: translateY(-55px);
    background-color: #f1f1f1;
    transition: 0.2s;
 }
