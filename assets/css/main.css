@@ -2764,19 +2764,19 @@ small {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(164, 128, 255, 0.25), rgba(255, 143, 131, 0.25));
 			}
 
-	a.image {
+	a.image, div.image {
 		overflow: hidden;
 		height: fit-content;
 	}
 
-		a.image img {
+		a.image img, div.image img {
 			-moz-transition: -moz-transform 0.2s ease;
 			-webkit-transition: -webkit-transform 0.2s ease;
 			-ms-transition: -ms-transform 0.2s ease;
 			transition: transform 0.2s ease;
 		}
 
-		a.image:hover img {
+		a.image:hover img, div.image:hover img {
 			-moz-transform: scale(1.075);
 			-webkit-transform: scale(1.075);
 			-ms-transform: scale(1.075);
